@@ -1,0 +1,33 @@
+.w15{
+  width: 15%
+}
+.w14{
+  width: 14%
+}
+.w18{
+  width: 18%
+}
+.w20{
+  width: 20%
+}
+.w25{
+  width: 25%
+}
+.p20{
+  padding: 0 20px;
+}
+.flex-line{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.el-select{
+  display: block;
+}
+.submitBtn{
+  margin-top: 50px;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+ul, li{
+  list-style: none;
+}
+.w16{
+  width: 16%;
+}
+.w20{
+  width: 20%;
+}
+.w52{
+  width: 52%;
+}
+.card-outer{
+  margin: 10px;
+  .card-content{
+    .card-content-info-list{
+      padding-left: 0;
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      li{
+        display: flex;
+        flex-flow: row nowrap;
+        span{
+          height: 35px;
+          line-height: 35px;
+          border-right: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          flex: 0 1 auto;
+          text-align: center;
+        }
+      }
+    }
+
+  }
+}

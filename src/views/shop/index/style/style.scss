@@ -1,0 +1,42 @@
+.left {
+  float: left;
+}
+.right{
+  float: right;
+}
+.line-show{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.mgR10{
+  margin-right: 10px;
+}
+.aibao-order{
+  .box-card{
+    margin: 10px;
+    .search-form-list{
+      display: flex;
+      flex-flow: row nowrap;
+      .search-form-item{
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 1 1 auto;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .form-list-header{
+    overflow: hidden;
+    p {
+      height: 30px;
+      margin: 0 0;
+      margin-right: 10px;
+      font-weight: bold;
+      line-height: 30px;
+    }
+  }
+  .block{
+    margin: 20px;
+    float: right;
+  }
+}
